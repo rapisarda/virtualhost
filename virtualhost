@@ -1,24 +1,6 @@
 #!/bin/bash
 
-
-#method=$1
-#hostname=$2
-
-#case "$1" in
-#    rm)
-#    echo 'fonction rm '$2
-#    exit 0;;
-#    ls)
-#    echo 'function list '$2
-#    exit 0;;
-#    mkhost)
-#    mkhost($2);
-#    exit 0;;
-#esac
-
-
-
-$hostname=$1;
+hostname=$1;
 owner=$(who am i | awk '{print $1}')
 email='webmaster@localhost'
 
